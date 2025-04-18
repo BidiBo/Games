@@ -1,0 +1,12 @@
+Node
+Node2D
+TileMapLayer
+Sprite2D
+AnimatedSprite2D
+TileMap
+Camera2D
+ProgressBar
+CollisionShape2D
+Area2D
+Timer
+CharacterBody2D

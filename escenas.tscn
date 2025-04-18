@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://ceid7fqx5cm25"]
+
+[ext_resource type="Texture2D" uid="uid://dyktacx7qgakb" path="res://art/Terrain/Water/Foam/Maple Tree.png" id="1_2y1qm"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="MapleTree" type="Sprite2D" parent="."]
+y_sort_enabled = true
+position = Vector2(161.5, 122.5)
+scale = Vector2(3.71875, 3.39583)
+texture = ExtResource("1_2y1qm")
+hframes = 5
+frame = 3

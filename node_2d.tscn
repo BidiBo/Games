@@ -1,0 +1,23 @@
+[gd_scene load_steps=4 format=3 uid="uid://dkpvn1jtdtjib"]
+
+[ext_resource type="PackedScene" uid="uid://gqjde8107e4b" path="res://Scenes/character_body_2d.tscn" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://dyktacx7qgakb" path="res://art/Terrain/Water/Foam/Maple Tree.png" id="2_epypp"]
+[ext_resource type="PackedScene" uid="uid://cmrffexrbhmhv" path="res://Scenes/escenas.tscn" id="3_epypp"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Jugador" parent="." instance=ExtResource("1_0e48y")]
+position = Vector2(396, 271)
+scale = Vector2(1.03642, 1)
+slide_on_ceiling = false
+
+[node name="MapleTree" type="Sprite2D" parent="."]
+z_as_relative = false
+y_sort_enabled = true
+position = Vector2(292, 193)
+scale = Vector2(6.04375, 5.22917)
+texture = ExtResource("2_epypp")
+hframes = 5
+frame = 2
+
+[node name="Escenas" parent="." instance=ExtResource("3_epypp")]

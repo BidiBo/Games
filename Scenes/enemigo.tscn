@@ -1,0 +1,219 @@
+[gd_scene load_steps=29 format=3 uid="uid://dcrmiln1tcidt"]
+
+[ext_resource type="Texture2D" uid="uid://cty6edgvbfafq" path="res://art/Factions/Goblins/Troops/Torch/Blue/Torch_Blue.png" id="1_mwaop"]
+[ext_resource type="Script" uid="uid://y6t2ntcyovao" path="res://Scripts/enemigo.gd" id="1_t4vig"]
+[ext_resource type="PackedScene" uid="uid://dk3qd72j4bkys" path="res://Componets/healtcomponentes.tscn" id="3_6hm1l"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_t4vig"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6hm1l"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_y42jf"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4kvw7"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(0, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ushq4"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(192, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ye8yw"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(384, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8l51y"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(576, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_75jbx"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(768, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_2ie5q"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(960, 384, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nwwci"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(0, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_r4rf8"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(192, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_txn3v"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(384, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f0wvv"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(576, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qt143"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(768, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lqjfn"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(960, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nrqrd"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(1152, 0, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vuyf6"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(0, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6043i"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(192, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p3jwc"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(384, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6pwql"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(576, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_0ryvk"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(768, 192, 192, 192)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nyoux"]
+atlas = ExtResource("1_mwaop")
+region = Rect2(960, 192, 192, 192)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_nwwci"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_t4vig")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6hm1l")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_y42jf")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4kvw7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ushq4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ye8yw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8l51y")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_75jbx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_2ie5q")
+}],
+"loop": false,
+"name": &"ataque",
+"speed": 6.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nwwci")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_r4rf8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_txn3v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_f0wvv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qt143")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lqjfn")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nrqrd")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 10.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vuyf6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6043i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p3jwc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6pwql")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_0ryvk")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_nyoux")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_r4rf8"]
+radius = 16.1245
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_t4vig"]
+size = Vector2(44.0625, 64)
+
+[node name="enemigo" type="CharacterBody2D"]
+script = ExtResource("1_t4vig")
+
+[node name="Componentes" type="Node" parent="."]
+
+[node name="Health_Componentes" parent="Componentes" node_paths=PackedStringArray("progress_bar") instance=ExtResource("3_6hm1l")]
+progress_bar = NodePath("../../ProgressBar")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_nwwci")
+animation = &"ataque"
+autoplay = "run"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3, 18)
+shape = SubResource("CircleShape2D_r4rf8")
+
+[node name="AreaAttack" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="AreaAttack"]
+position = Vector2(23, 3)
+shape = SubResource("RectangleShape2D_t4vig")
+debug_color = Color(0.858348, 0.358495, 0.169567, 0.42)
+
+[node name="ProgressBar" type="ProgressBar" parent="."]
+offset_left = -41.0
+offset_top = -59.0
+offset_right = 53.0
+offset_bottom = -51.0
+value = 50.0
+show_percentage = false
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
+[connection signal="body_entered" from="AreaAttack" to="." method="_on_area_attack_body_entered"]
+[connection signal="body_exited" from="AreaAttack" to="." method="_on_area_attack_body_exited"]
